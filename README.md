@@ -1,8 +1,8 @@
-AI-Powered SQL Query Generator
-Overview
+### AI-Powered SQL Query Generator
+##### Overview
 This project is a Streamlit application that leverages Google’s Generative AI to convert natural language questions into SQL queries. The app supports querying an SQLite database, either using a predefined student dataset or a user-uploaded CSV file. It dynamically adjusts to the schema of the uploaded data, ensuring accurate SQL query generation based on the actual database schema.
 
-Features
+##### Features
 Natural Language to SQL Query: Convert natural language questions into SQL queries using Google’s Generative AI.
 Dynamic Schema Handling: Automatically adjust SQL queries based on the columns of the uploaded CSV file or the default student dataset.
 CSV Upload: Users can upload their own CSV files, which are converted into an SQLite database for querying.
