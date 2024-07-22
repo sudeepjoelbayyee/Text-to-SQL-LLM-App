@@ -1,11 +1,11 @@
-# AI-Powered SQL Query Generator with Streamlit
+# AI-Powered SQL Query Generator with Text
 
 ## Overview
 
 This project demonstrates a web application built with Streamlit that leverages Google’s Generative AI (Gemini) to convert natural language questions into SQL queries. Users can interact with the app to ask questions about student data, which can be either pre-loaded or provided through an uploaded CSV file. The app dynamically adjusts to the schema of the uploaded data and generates SQL queries accordingly.
 
 ## Demo
-
+### Deployment Link: https://text-to-sql-llm-app.streamlit.app/
 
 https://github.com/user-attachments/assets/551a3e8b-0bf0-484b-8950-6163ced4f753
 
