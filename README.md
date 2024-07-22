@@ -1,26 +1,26 @@
-### AI-Powered SQL Query Generator
-##### Overview
+## AI-Powered SQL Query Generator
+### Overview
 This project is a Streamlit application that leverages Google’s Generative AI to convert natural language questions into SQL queries. The app supports querying an SQLite database, either using a predefined student dataset or a user-uploaded CSV file. It dynamically adjusts to the schema of the uploaded data, ensuring accurate SQL query generation based on the actual database schema.
 
-##### Features
+### Features
 Natural Language to SQL Query: Convert natural language questions into SQL queries using Google’s Generative AI.
 Dynamic Schema Handling: Automatically adjust SQL queries based on the columns of the uploaded CSV file or the default student dataset.
-CSV Upload: Users can upload their own CSV files, which are converted into an SQLite database for querying.
-Database Cleanup: Automatically delete the temporary SQLite database after the task is completed to avoid clutter.
+#### CSV Upload: Users can upload their own CSV files, which are converted into an SQLite database for querying.
+#### Database Cleanup: Automatically delete the temporary SQLite database after the task is completed to avoid clutter.
 Technologies
-Streamlit: For creating the interactive web application.
-Google Generative AI: For generating SQL queries from natural language.
-SQLite: For database management.
-Pandas: For handling CSV files and converting them into SQLite tables.
-Python-dotenv: For managing environment variables securely.
+#### Streamlit: For creating the interactive web application.
+#### Google Generative AI: For generating SQL queries from natural language.
+#### SQLite: For database management.
+#### Pandas: For handling CSV files and converting them into SQLite tables.
+#### Python-dotenv: For managing environment variables securely.
 Setup
-Clone the Repository:
+### Clone the Repository:
 
 sh
 Copy code
 git clone https://github.com/your-username/ai-sql-query-generator.git
 cd ai-sql-query-generator
-Install Dependencies:
+#### Install Dependencies:
 
 sh
 Copy code
